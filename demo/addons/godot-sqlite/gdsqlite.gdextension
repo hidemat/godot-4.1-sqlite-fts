@@ -10,6 +10,8 @@ windows.x86_64 = "res://addons/godot-sqlite/bin/libgdsqlite.windows.template_deb
 windows.template_release.x86_64 = "res://addons/godot-sqlite/bin/libgdsqlite.windows.template_release.x86_64.dll"
 linux.x86_64 = "res://addons/godot-sqlite/bin/libgdsqlite.linux.template_debug.x86_64.so"
 linux.template_release.x86_64 = "res://addons/godot-sqlite/bin/libgdsqlite.linux.template_release.x86_64.so"
+web.wasm32 = "res://addons/godot-sqlite/bin/libgdsqlite.javascript.template_debug.wasm32.wasm"
+web.template_release.wasm32 = "res://addons/godot-sqlite/bin/libgdsqlite.javascript.template_release.wasm32.wasm"
 
 [dependencies]
 
@@ -19,3 +21,6 @@ windows.x86_64 = {}
 windows.template_release.x86_64 = {}
 linux.x86_64 = {}
 linux.template_release.x86_64 = {}
+linux.template_release.x86_64 = {}
+web.wasm32 = {}
+web.template_release.wasm32 = {}
