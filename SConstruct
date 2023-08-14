@@ -39,5 +39,7 @@ else:
         env["SHLIBSUFFIX"]
     )
 
+env.Append(CPPDEFINES=['SQLITE_ENABLE_FTS5']) 
+
 library = env.SharedLibrary(target=target, source=sources)
 Default(library)
